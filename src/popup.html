@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        min-width: 300px;
+        display: flex;
+        flex-direction: column;
+      }
+      #randomeArticleBtn {
+        align-self: baseline;
+        padding: 5px;
+        background-color: #ffffff;
+        border: 1px solid #8596a5;
+        border-radius: 3px;
+        color: black;
+      }
+      .input {
+        margin: 10px 0;
+        padding: 10px 5px;
+        width: 80%;
+      }
+      .textarea {
+        margin: 10px 0;
+        padding: 10px 5px;
+        width: 80%;
+      }
+      .toaster {
+        border: 1px solid;
+        padding: 3px 5px;
+        align-self: start;
+        border-radius: 3px;
+        color: white;
+      }
+      .success {
+        background-color: #359933;
+      }
+      .info {
+        background-color: #2196F3;
+      }
+      .error {
+        background-color: #F44336;
+      }
+    </style>
+  </head>
+  <body>
+    <button id="randomeArticleBtn">Get Random Article</button>
+    <div id="result"></div>
+    <script type="module" src="popup.js"></script>
+  </body>
+</html>
